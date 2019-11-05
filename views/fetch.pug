@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  h1= name
+  p= description 
+
+  p What do you think about this movie?
+
+  form(method="post")
+    input(type="text")
+    button(type="submit") Submit!
+
+  p=array
