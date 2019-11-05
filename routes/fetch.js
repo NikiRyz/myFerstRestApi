@@ -23,9 +23,6 @@ router.get('/', function(req, res, next) {
     })
 });
 
-
-
-
 router.post('/',  (req, res)=> {
   console.log(req.body)
  arr.push(req.body.text);
